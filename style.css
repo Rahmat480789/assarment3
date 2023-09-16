@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    align-items: center;
+    
+}
+.logo{
+    width: 20%;
+}
+nav{
+    width: 50%;
+    
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+nav ul li{
+   margin-left: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #626262;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    padding: 6px 10px;
+    margin: 6px 10px;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+   
+    border-radius: 7px;
+
+}
+.banner{
+    width: 90%;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+    margin: auto;
+}
+.wikkend{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+
+}
+.wikkend h4{
+    color: b4ad9e;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.wikkend h1{
+    color: #626262;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+   
+}
+.wikkend p{
+    color: #626262;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+    
+}
+.wikkend a{
+    text-decoration: none;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+}
+.wikkend a:hover{
+    text-decoration: underline;
+}
